@@ -1,0 +1,7 @@
+spring:
+  data:
+    gemfire:
+      cache:
+        name: ${random.value}
+        server:
+          port: 0
